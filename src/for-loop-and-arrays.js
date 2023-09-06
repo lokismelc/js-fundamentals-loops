@@ -10,7 +10,7 @@ for (let i = 0; i < nums.length; i++) {
   sum += nums[i]
   console.log(sum)
 }
-// 2. Use a for loop to populate doubledNums with every value from nums array doubled (i.e [2, 6, 24, etc...])
+
 const doubledNums = []
 for (let i = 0; i < nums.length; i++) {
   doubledNums.push(nums[i] * 2)
@@ -28,6 +28,10 @@ for (let i = 0; i < letters.length; i++) {
 const everySecondNum = []
 for (let i = 1; i < nums.length; i += 2) {
   everySecondNum.push(nums[i])
+
+
+  console.log(everySecondNum)
+
 }
 
 // 5. Use a for loop to populate numsReversed with the numbers from nums in reverse order
